@@ -49,7 +49,7 @@ export default function details(props: Route.ComponentProps) {
 			<Box sx={{ maxWidth: 'md', mx: 'auto', mt: 4 }}>
 				<Alert severity='error'>{error}</Alert>
 				<Button variant='contained' sx={{ mt: 2 }}>
-					<NavLink to={`/`}>Назад к списку </NavLink>
+					<NavLink to={`/testTask`}>Назад к списку </NavLink>
 				</Button>
 			</Box>
 		)
@@ -58,7 +58,7 @@ export default function details(props: Route.ComponentProps) {
 	return (
 		<Box sx={{ maxWidth: 'md', mx: 'auto', mt: 4, p: 3 }}>
 			<Button variant='outlined' startIcon={'<'} sx={{ mb: 3 }}>
-				<NavLink to={`/`}>Назад </NavLink>
+				<NavLink to={`/testTask`}>Назад </NavLink>
 			</Button>
 
 			{loading && (

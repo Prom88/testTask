@@ -106,7 +106,7 @@ export default function Home() {
 							</CardContent>
 							<CardActions sx={{ mt: 'auto', justifyContent: 'flex-end' }}>
 								<Button size='small' variant='outlined'>
-									<NavLink to={`/post/${post.id}`}>Просмотр</NavLink>
+									<NavLink to={`/testTask/${post.id}`}>Просмотр</NavLink>
 								</Button>
 							</CardActions>
 						</Card>
